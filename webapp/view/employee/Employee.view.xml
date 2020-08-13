@@ -34,7 +34,25 @@
                     > 
                         <f:content> 
                             <Label text="{i18n>formFirstName}"/> 
-                            <Text text="{FirstName}"
+                            <Text text="{FirstName}"/> 
+
+                            <Label text="{i18n>formLastName}"/> 
+                            <Text text="{LastName}"/>
+
+                            <Label text="{i18n>formAddress}"/> 
+                            <Text text="{Address}"/>
+
+                            <Label text="{i18n>formCity}"/> 
+                            <Text text="{City},  {Region}"/>
+
+                            <Label text="{i18n>formPostalCode}"/> 
+                            <Text text="{PostalCode}"/>
+
+                            <Label text="{i18n>formPhoneHome}"/> 
+                            <Text text="{HomePhone}"/> 
+
+                            <Label text="{i18n>formCountry}"/> 
+                            <Text text="{Country}"/> 
                         </f:content> 
                     </f:SimpleForm> 
                 </content> 
