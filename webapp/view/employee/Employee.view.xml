@@ -20,7 +20,7 @@
             > 
                 <headerToolbar> 
                     <Toolbar> 
-                        <Title text="{i18n>EmployeeIDColon}  {EmployeeID}"  level="H2"/> 
+                        <Title text="{i18n>formEmployeeIDColon}  {EmployeeID}"  level="H2"/> 
                         <ToolbarSpacer/> 
                     </Toolbar> 
                 </headerToolbar> 
